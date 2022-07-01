@@ -1,0 +1,16 @@
+.swal2-container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: baseline !important;
+}
+/* 
+.swal2-popup{
+    display: block !important;
+} */
+
+.swal2-container.swal2-center>.swal2-popup {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: baseline !important;
+    justify-self: center;
+}
